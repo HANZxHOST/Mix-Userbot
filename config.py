@@ -4,9 +4,9 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-api_id = int(getenv("api_id", None))
-api_hash = getenv("api_hash", None)
-session = getenv("session", None)
+api_id = int(getenv("32937413"))
+api_hash = getenv("49471bf6497846c6feacdf2272eb19b4")
+session = getenv("")
 bot_token = getenv("bot_token", None)
 db_name = getenv("db_name", None)
 mongo_uri = getenv("mongo_uri", None)
